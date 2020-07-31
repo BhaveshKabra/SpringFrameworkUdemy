@@ -11,7 +11,8 @@
 	<groupId>org.bhavesh.spring</groupId>
 	<artifactId>SpringFrameworkUdemy</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<packaging>war</packaging>
+	<!-- <packaging>war</packaging> -->
+	<packaging>jar</packaging>
 	<name>SpringFrameworkUdemy</name>
 	<description>Spring Project Udemy</description>
 

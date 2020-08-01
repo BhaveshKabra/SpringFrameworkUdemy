@@ -39,6 +39,16 @@ public class DataBootstrap implements CommandLineRunner {
 		 publisher1.getBooks().add(book1);
 		 publisherRepository.save(publisher1);
 		 
+		 Book book3= new Book("Book Title3", "188ghtio643");
+		 author1.getBooks().add(book3);
+		 book3.getAuthors().add(author1);
+		 
+		 authorRepository.save(author1);
+		 bookRepository.save(book3);
+		 book3.setPublisher(publisher1);
+		 publisher1.getBooks().add(book3);
+		 publisherRepository.save(publisher1);
+		 
 		 Author author2=new Author("Test2","test2");
 		 Book book2= new Book("Book Title2", "2188ghtio643");
 		 author2.getBooks().add(book2);

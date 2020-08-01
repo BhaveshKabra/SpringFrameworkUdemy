@@ -87,6 +87,10 @@ public class Book {
 	public void setPublisher(Publisher publisher) {
 		this.publisher = publisher;
 	}
+	public Book() {
+		super();
+		// TODO Auto-generated constructor stub
+	}
 	
 	
 }
